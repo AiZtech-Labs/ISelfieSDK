@@ -1,0 +1,13 @@
+# Swift Package Manager / Xcode
+.build/
+.swiftpm/
+*.xcodeproj/xcuserdata/
+DerivedData/
+
+# Android
+.gradle/
+build/
+local.properties
+
+# macOS
+.DS_Store
