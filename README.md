@@ -58,7 +58,7 @@ In Xcode: **File → Add Package Dependencies…**, enter `https://github.com/Ai
 and add the **ISelfieSDK** library to your app target. Or, in a `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/AiZtech-Labs/ISelfieSDK", exact: "0.9.0")
+.package(url: "https://github.com/AiZtech-Labs/ISelfieSDK", exact: "0.9.1")
 ```
 
 Add the camera usage text to your app's `Info.plist` (iOS requires it):
@@ -450,13 +450,14 @@ Questions about the SDK, your plan or your account: **hi@iselfie.ai**.
 ### Android 0.9.0
 
 First release of the iSelfie SDK for Android, on Maven Central: the same API, options, screens
-and texts as the iOS SDK.
+and texts as the iOS SDK, under the
+[iSelfie SDK License Agreement](https://www.iselfie.ai/sdk-license).
 
-### License
+### iOS 0.9.1
 
-The SDK is now distributed under the proprietary
-[iSelfie SDK License Agreement](https://www.iselfie.ai/sdk-license), which replaces the MIT
-License for new releases.
+License change only, no code changes (same binary as 0.9.0): the SDK is now distributed under the
+proprietary [iSelfie SDK License Agreement](https://www.iselfie.ai/sdk-license), which replaces the
+MIT License, with its [third-party notices](THIRD_PARTY_NOTICES.md).
 
 ### iOS 0.9.0
 
