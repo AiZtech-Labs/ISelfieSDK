@@ -6,7 +6,7 @@ licenses govern those components.
 
 ## iOS (`ISelfieSDK.xcframework`)
 
-Linked statically inside the framework, unmodified:
+Linked statically inside the framework, unmodified :
 
 | Component | License |
 |---|---|
