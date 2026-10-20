@@ -1,21 +1,111 @@
-MIT License
+iSelfie SDK License Agreement
 
-Copyright (c) 2026 AiZtech Labs
+Copyright (c) 2026 AiZtech Labs Inc. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Agreement
+This agreement governs your use of the iSelfie SDK, including its binaries, resources,
+documentation and sample code (the "SDK"). By downloading, integrating or using the SDK, you
+accept this agreement on behalf of yourself or the organization you represent ("you"). If your
+organization has a separate signed agreement with AiZtech Labs Inc. ("AiZtech") that covers the
+SDK, that agreement prevails where the two conflict.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+2. Account and credentials
+The SDK works only with an iSelfie organization account and the plan of that account, including
+free trials. Your use of the SDK is subject to that plan's limits and fees and to the terms that
+apply to your account. You must keep your API key and other account credentials confidential:
+the API key belongs on your servers only and must never be included in an application. When your
+plan or free trial ends, or its usage limits are reached, the SDK stops performing scans until the
+plan is renewed.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+3. License grant
+While your account has an active plan or free trial, AiZtech grants you a limited, non-exclusive,
+non-transferable, non-sublicensable and revocable license to:
+  (a) integrate the SDK into your applications that use the iSelfie services;
+  (b) distribute the SDK, in object-code form only, as part of those applications to their end
+      users; and
+  (c) use, copy and modify the sample code and code snippets in the SDK's documentation, solely
+      to integrate the SDK into those applications.
+
+4. Restrictions
+Except as allowed in Section 3(c), you may not:
+  (a) distribute, sell, lease or sublicense the SDK on its own, or as part of another SDK,
+      library or development tool;
+  (b) modify the SDK or create derivative works of it;
+  (c) decompile, disassemble or reverse engineer the SDK, or attempt to extract its source code,
+      models, algorithms or validation logic, except to the extent that applicable law expressly
+      permits it despite this restriction;
+  (d) circumvent or interfere with the SDK's authentication, plan checks, usage limits or
+      security;
+  (e) use the SDK or its outputs to build or improve a competing product or service;
+  (f) remove or alter any proprietary notice in the SDK; or
+  (g) use the SDK in violation of any applicable law or regulation.
+
+5. Data and privacy
+AiZtech processes raw signals and test results to provide, operate, maintain, secure, and improve
+the iSelfie services in accordance with its Privacy Policy and applicable data protection laws.
+Any secondary use of personal or health-related data, including training or improving AI models
+where additional consent is required, will be subject to such consent.
+
+6. Your applications and end users
+You are responsible for your applications and for your relationship with their end users,
+including your terms of use, privacy notices, any consent required by law to collect and share
+health information, and app-store disclosures. The SDK's outputs are general wellness
+information. The SDK is not a medical device and does not provide medical advice, diagnosis or
+treatment; you may not present your application or the SDK's outputs as such without AiZtech's
+prior written consent and any regulatory approval required.
+
+7. Third-party components
+The SDK includes or depends on third-party components that are licensed under their own terms,
+listed in THIRD_PARTY_NOTICES. Those terms govern those components, and nothing in this agreement
+limits your rights under them.
+
+8. Ownership, trademarks and feedback
+AiZtech and its licensors own all rights, title and interest in the SDK. No rights are granted
+except as expressly stated in this agreement. You may use the "iSelfie" name only to state
+accurately that your application uses the iSelfie SDK, and not in a way that suggests AiZtech
+endorses your application. AiZtech may use any feedback you provide about the SDK without
+obligation to you.
+
+9. Updates and changes to this agreement
+AiZtech may update, change or discontinue the SDK at any time; older versions may stop working
+with the iSelfie services. AiZtech may update this agreement; the version that accompanies an SDK
+release applies to that release, and continuing to use or distribute the SDK after an update
+means you accept the updated agreement.
+
+10. Term and termination
+This agreement remains in effect until terminated. It terminates automatically if your account is
+closed or ends, or if you breach it. On termination you must stop using the SDK and stop
+distributing it in new versions of your applications. Sections 4, 5, 7, 8 and 10 to 15 survive
+termination.
+
+11. Disclaimer of warranty
+THE SDK IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY AND
+NON-INFRINGEMENT, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW.
+
+12. Limitation of liability
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, AIZTECH'S TOTAL AGGREGATE LIABILITY ARISING
+OUT OF OR RELATING TO THE SDK OR THIS AGREEMENT SHALL NOT EXCEED THE TOTAL AMOUNTS PAID BY YOU TO
+AIZTECH FOR THE ISELFIE SERVICES DURING THE TWELVE (12) MONTHS PRECEDING THE EVENT GIVING RISE TO
+THE CLAIM.
+
+13. Indemnification
+You will indemnify and hold harmless AiZtech and its affiliates, officers and employees from any
+claims, damages and expenses (including reasonable legal fees) arising from your applications,
+your breach of this agreement, or your violation of any law or third-party right.
+
+14. Governing law
+This agreement is governed by the laws of the Province of Ontario, Canada, without regard to
+conflict-of-law principles, and the competent courts of that jurisdiction have exclusive
+jurisdiction over any dispute arising from it.
+
+15. General
+You must comply with all applicable export-control and sanctions laws in using and distributing
+the SDK. You may not assign this agreement without AiZtech's prior written consent; AiZtech may
+assign it in connection with a merger, acquisition or sale of assets. If any provision of this
+agreement is held unenforceable, the rest remains in effect. AiZtech's failure to enforce a
+provision is not a waiver of it. This agreement, together with the terms that apply to your
+account, is the entire agreement between you and AiZtech regarding the SDK.
+
+16. Contact
+hi@iselfie.ai
