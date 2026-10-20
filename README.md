@@ -6,10 +6,12 @@ rate variability and respiratory rate**. The vitals are computed by the iSelfie 
 plan limits and test history are managed in the
 [iSelfie Developer Console](https://developer.iselfie.ai/).
 
-| Platform | Install |
-|---|---|
-| iOS | Swift Package Manager — this repository |
-| Android | Maven Central — `ai.iselfie:iselfie-sdk` |
+| Platform | Latest version | Install |
+|---|---|---|
+| iOS | 0.9.1 | Swift Package Manager — this repository |
+| Android | 0.9.0 | Maven Central — `ai.iselfie:iselfie-sdk` |
+
+Both platforms have the same features and API; each has its own version number.
 
 > **Wellness, not medical.** The results are general wellness information. The SDK is not a
 > medical device and does not provide medical advice, diagnosis or treatment. Don't present your
