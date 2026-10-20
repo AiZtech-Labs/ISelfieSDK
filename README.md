@@ -28,6 +28,7 @@ plan limits and test history are managed in the
 - [Privacy](#privacy)
 - [Logs](#logs)
 - [Checklist](#checklist)
+- [License](#license)
 - [Changelog](#changelog)
 
 ## Requirements
@@ -328,6 +329,14 @@ it's safe to leave on. Filter the Xcode console by `ai.iselfie.sdk`.
 - [ ] `appUserId` is an opaque internal ID.
 - [ ] Your webhook endpoint verifies the request authentication.
 - [ ] Your App Store privacy details declare Health & Fitness (and User ID if you pass it).
+
+## License
+
+The iSelfie SDK is proprietary software of AiZtech Labs Inc., licensed under the
+[iSelfie SDK License Agreement](https://www.iselfie.ai/sdk-license) (also in [LICENSE](LICENSE)).
+It works only with an iSelfie organization account that has an active plan or free trial.
+Third-party components and their licenses are listed in
+[THIRD_PARTY_NOTICES](THIRD_PARTY_NOTICES.md).
 
 ## Changelog
 
