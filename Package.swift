@@ -16,8 +16,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "ISelfieSDK",
-      url: "https://github.com/AiZtech-Labs/ISelfieSDK/releases/download/0.9.0/ISelfieSDK.xcframework.zip",
-      checksum: "473a410219f41d59e10173ff3e35625526a3cf88b217d852929b7fa1f9ddb4a0"
+      url: "https://github.com/AiZtech-Labs/ISelfieSDK/releases/download/1.0.0-rc.1/ISelfieSDK.xcframework.zip",
+      checksum: "2b176ff93172e713f86e1742859cf18f0e3d1a72f909710960eb545f6aee73dd"
     ),
   ]
 )

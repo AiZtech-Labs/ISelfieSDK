@@ -449,6 +449,17 @@ Questions about the SDK, your plan or your account: **hi@iselfie.ai**.
 
 ## Changelog
 
+### 1.0.0-rc.1 (iOS and Android, pre-release)
+
+First release candidate of 1.0.0, for testing before the final release. Install it with the exact
+version: `exact: "1.0.0-rc.1"` (Swift Package Manager) or `ai.iselfie:iselfie-sdk:1.0.0-rc.1`
+(Gradle). Built with Xcode 27.2.
+
+- Spanish live heart-rate unit shown as "PPM".
+- iOS: fixed a rare crash when the camera starts.
+- Android: the live heart-rate text is no longer cut off on tablets or with a larger system font.
+- Instructions and results pages laid out for tablets and dual-screen phones.
+
 ### Android 0.9.0
 
 First release of the iSelfie SDK for Android, on Maven Central: the same API, options, screens
