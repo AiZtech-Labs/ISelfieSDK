@@ -6,12 +6,16 @@ rate variability and respiratory rate**. The vitals are computed by the iSelfie 
 plan limits and test history are managed in the
 [iSelfie Developer Console](https://developer.iselfie.ai/).
 
-| Platform | Latest version | Install |
-|---|---|---|
-| iOS | 0.9.1 | Swift Package Manager — this repository |
-| Android | 0.9.0 | Maven Central — `ai.iselfie:iselfie-sdk` |
+| Platform | Stable | Pre-release | Install |
+|---|---|---|---|
+| iOS | 0.9.1 | 1.0.0-rc.1 | Swift Package Manager — this repository |
+| Android | 0.9.0 | 1.0.0-rc.1 | Maven Central — `ai.iselfie:iselfie-sdk` |
+| Flutter | — | 1.0.0-rc.1 | Git — [ISelfieSDK-Flutter](https://github.com/AiZtech-Labs/ISelfieSDK-Flutter) |
 
-Both platforms have the same features and API; each has its own version number.
+All platforms have the same features and API, and from 1.0.0 on they share the same version
+number. The Flutter plugin runs these native SDKs; its setup is in its own repository.
+The install steps below use the stable versions; to try 1.0.0-rc.1, use that exact version
+instead.
 
 > **Wellness, not medical.** The results are general wellness information. The SDK is not a
 > medical device and does not provide medical advice, diagnosis or treatment. Don't present your
