@@ -8,13 +8,13 @@ plan limits and test history are managed in the
 
 | Platform | Stable | Pre-release | Install |
 |---|---|---|---|
-| iOS | 0.9.1 | 1.0.0-rc.1 | Swift Package Manager — this repository |
-| Android | 0.9.0 | 1.0.0-rc.1 | Maven Central — `ai.iselfie:iselfie-sdk` |
-| Flutter | — | 1.0.0-rc.1 | Git — [ISelfieSDK-Flutter](https://github.com/AiZtech-Labs/ISelfieSDK-Flutter) |
+| iOS | 0.9.1 | 1.0.0-rc.2 | Swift Package Manager — this repository |
+| Android | 0.9.0 | 1.0.0-rc.2 | Maven Central — `ai.iselfie:iselfie-sdk` |
+| Flutter | — | 1.0.0-rc.2 | Git — [ISelfieSDK-Flutter](https://github.com/AiZtech-Labs/ISelfieSDK-Flutter) |
 
 All platforms have the same features and API, and from 1.0.0 on they share the same version
 number. The Flutter plugin runs these native SDKs; its setup is in its own repository.
-The install steps below use the stable versions; to try 1.0.0-rc.1, use that exact version
+The install steps below use the stable versions; to try 1.0.0-rc.2, use that exact version
 instead.
 
 > **Wellness, not medical.** The results are general wellness information. The SDK is not a
@@ -452,6 +452,21 @@ Third-party components and their licenses are listed in
 Questions about the SDK, your plan or your account: **hi@iselfie.ai**.
 
 ## Changelog
+
+### 1.0.0-rc.2 (iOS, Android and Flutter, pre-release)
+
+Second release candidate of 1.0.0. Install it with the exact version: `exact: "1.0.0-rc.2"`
+(Swift Package Manager), `ai.iselfie:iselfie-sdk:1.0.0-rc.2` (Gradle) or `ref: 1.0.0-rc.2`
+(Flutter). Use it instead of 1.0.0-rc.1.
+
+- iOS: apps using the SDK can be uploaded to App Store Connect and TestFlight again. With
+  1.0.0-rc.1 the upload failed with ITMS-90535 ("Unexpected CFBundleExecutable Key" in
+  `ISelfieSDKResources.bundle`).
+- iOS: the framework ships its debug symbols, so crashes inside the SDK are symbolicated in App
+  Store Connect and Xcode.
+- Android: the rear camera is declared as not required, so Google Play no longer hides apps from
+  devices with only a front camera (and no longer warns about required hardware features).
+- No API changes. Flutter moves to 1.0.0-rc.2 to keep the same version on every platform.
 
 ### 1.0.0-rc.1 (iOS and Android, pre-release)
 
